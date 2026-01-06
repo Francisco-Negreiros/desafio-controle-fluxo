@@ -6,7 +6,7 @@ import exception.ParametrosInvalidosException;
 public class Contador {
 
 	public static void main(String[] args) {
-
+		// Permite a entrada de dados do usuario
 		Scanner terminal = new Scanner(System.in);
 
 		System.out.println("Digite o primeiro parâmetro");
