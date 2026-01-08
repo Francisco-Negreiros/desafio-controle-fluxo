@@ -40,7 +40,7 @@ public class Contador {
 
 		// for para imprimir os números
 		for (int i = 1; i <= contagem; i++) {
-			System.out.println("Imprimindo o número " + i);
+			System.out.println("[INFO]Imprimindo o número " + i);
 		}
 	}
 }
