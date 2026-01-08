@@ -6,7 +6,7 @@ import exception.ParametrosInvalidosException;
 public class Contador {
 
 	public static void main(String[] args) {
-
+		// Permite a entrada de dados do usuario
 		Scanner terminal = new Scanner(System.in);
 
 		System.out.println("Digite o primeiro parâmetro");
@@ -40,7 +40,7 @@ public class Contador {
 
 		// for para imprimir os números
 		for (int i = 1; i <= contagem; i++) {
-			System.out.println("[INFO] Imprimindo o número (contador): " + i);
+			System.out.println("[INFO] Printing number " + i);
 		}
 	}
 }
