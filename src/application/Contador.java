@@ -41,12 +41,9 @@ public class Contador {
 
 		// for para imprimir os números
 		for (int i = 1; i <= contagem; i++) {
-<<<<<<< HEAD
-			System.out.println("[INFO] Printing number " + i);
-=======
-			System.out.println("[INFO] Mensagem em português padronizada: " + i);
 
->>>>>>> f92d0fb (feat: padroniza log em português)
+			System.out.println("[DEBUG] Mensagem em português padronizada: " + i);
+
 		}
 	}
 }
