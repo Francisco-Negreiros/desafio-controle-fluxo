@@ -36,11 +36,14 @@ public class Contador {
 			);
 		}
 
+		// lógica da contagem
 		int contagem = parametroDois - parametroUm;
 
 		// for para imprimir os números
 		for (int i = 1; i <= contagem; i++) {
-			System.out.println("[INFO] Printing number " + i);
+
+			System.out.println("[DEBUG] Mensagem em português padronizada: " + i);
+
 		}
 	}
 }
