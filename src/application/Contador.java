@@ -36,6 +36,7 @@ public class Contador {
 			);
 		}
 
+		// lógica da contagem
 		int contagem = parametroDois - parametroUm;
 
 		// for para imprimir os números
